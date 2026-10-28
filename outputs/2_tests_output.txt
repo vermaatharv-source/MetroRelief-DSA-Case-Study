@@ -1,0 +1,49 @@
+test_downgrade_and_tie_keeps_arrival (__main__.Task1.test_downgrade_and_tie_keeps_arrival) ... ok
+test_empty (__main__.Task1.test_empty) ... ok
+test_errors (__main__.Task1.test_errors) ... ok
+test_random_vs_sorted (__main__.Task1.test_random_vs_sorted) ... ok
+test_sample_order (__main__.Task1.test_sample_order) ... ok
+test_upgrade (__main__.Task1.test_upgrade) ... ok
+test_directed_ambulance_direction (__main__.Task2.test_directed_ambulance_direction) ... ok
+test_disconnected (__main__.Task2.test_disconnected) ... ok
+test_incident_at_hospital (__main__.Task2.test_incident_at_hospital) ... ok
+test_multisource_matches_individual (__main__.Task2.test_multisource_matches_individual) ... ok
+test_nearest_ambulance_single_search (__main__.Task2.test_nearest_ambulance_single_search) ... ok
+test_nearest_of_several_hospitals (__main__.Task2.test_nearest_of_several_hospitals) ... ok
+test_negative_weight_rejected (__main__.Task2.test_negative_weight_rejected) ... ok
+test_no_ambulance (__main__.Task2.test_no_ambulance) ... ok
+test_query1 (__main__.Task2.test_query1) ... ok
+test_query2_closure (__main__.Task2.test_query2_closure) ... ok
+test_duplicate_and_unknown_closures (__main__.Task3.test_duplicate_and_unknown_closures) ... ok
+test_initially_disconnected (__main__.Task3.test_initially_disconnected) ... ok
+test_no_closures (__main__.Task3.test_no_closures) ... ok
+test_no_hospitals (__main__.Task3.test_no_hospitals) ... ok
+test_random_vs_naive (__main__.Task3.test_random_vs_naive) ... ok
+test_sample (__main__.Task3.test_sample) ... ok
+test_x_is_hospital (__main__.Task3.test_x_is_hospital) ... ok
+test_empty (__main__.Task4.test_empty) ... ok
+test_equal_values_and_negatives (__main__.Task4.test_equal_values_and_negatives) ... ok
+test_invalid_k (__main__.Task4.test_invalid_k) ... ok
+test_k_larger_than_array (__main__.Task4.test_k_larger_than_array) ... ok
+test_k_one_and_k_n (__main__.Task4.test_k_one_and_k_n) ... ok
+test_random_vs_bruteforce (__main__.Task4.test_random_vs_bruteforce) ... ok
+test_sample (__main__.Task4.test_sample) ... ok
+test_chosen_is_feasible_and_optimal (__main__.Task5.test_chosen_is_feasible_and_optimal) ... ok
+test_everything_fits_and_free_zone (__main__.Task5.test_everything_fits_and_free_zone) ... ok
+test_invalid (__main__.Task5.test_invalid) ... ok
+test_nothing_fits (__main__.Task5.test_nothing_fits) ... ok
+test_sample (__main__.Task5.test_sample) ... ok
+test_zero_capacity_and_empty (__main__.Task5.test_zero_capacity_and_empty) ... ok
+test_beds_query_and_update (__main__.Task6.test_beds_query_and_update) ... ok
+test_duplicates_ignored (__main__.Task6.test_duplicates_ignored) ... ok
+test_fewer_than_five_and_case (__main__.Task6.test_fewer_than_five_and_case) ... ok
+test_no_match_and_empty_prefix (__main__.Task6.test_no_match_and_empty_prefix) ... ok
+test_prefix_top5_sorted (__main__.Task6.test_prefix_top5_sorted) ... ok
+test_random_vs_bruteforce (__main__.Task6.test_random_vs_bruteforce) ... ok
+test_ring_wrap (__main__.Task6.test_ring_wrap) ... ok
+test_single_and_errors (__main__.Task6.test_single_and_errors) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.027s
+
+OK

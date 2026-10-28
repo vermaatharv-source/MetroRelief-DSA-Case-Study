@@ -1,0 +1,48 @@
+
+==============================================================================
+TASK 1 - Incident Priority Queue   (add / serveNext / updateSeverity)
+==============================================================================
+  Added: I1(sev3,t1) I2(sev5,t2) I3(sev5,t0) I4(sev2,t3)
+  service order                      got: ['I3', 'I2', 'I1', 'I4']     expected: ['I3', 'I2', 'I1', 'I4'] [PASS]
+  after updateSeverity(I4 -> 5)      got: ['I3', 'I2', 'I4', 'I1']     expected: ['I3', 'I2', 'I4', 'I1'] [PASS]
+
+==============================================================================
+TASK 2 - Fastest Route and Nearest Ambulance   (Dijkstra, early exit)
+==============================================================================
+  Query 1: A -> H (minutes)          got: 13                           expected: 13                     [PASS]
+  route: A -> C -> B -> D -> E -> H
+  Query 2: D-E closed, A -> H        got: 14                           expected: 14                     [PASS]
+  route: A -> C -> B -> D -> H
+  Nearest ambulance to H (A,E,B)     got: (3, 'E')                     expected: (3, 'E')               [PASS]
+  ONE search from the incident, not one per ambulance
+
+==============================================================================
+TASK 3 - Road Closures and Reachability   (reverse-time Union-Find)
+==============================================================================
+  closures in order: [('D', 'E'), ('E', 'H'), ('D', 'H'), ('C', 'E')]
+  can A reach a hospital, per step   got: ['Yes', 'Yes', 'No', 'No']   expected: ['Yes', 'Yes', 'No', 'No'] [PASS]
+
+==============================================================================
+TASK 4 - Surge Monitoring   (monotonic deque + rolling sum)
+==============================================================================
+  calls per minute: [2, 1, 4, 3, 0, 5, 2]  K = 3
+  part 1: max of every window        got: [4, 4, 4, 5, 5]              expected: [4, 4, 4, 5, 5]        [PASS]
+  part 2: busiest 3-minute total     got: 8                            expected: 8                      [PASS]
+  edge: K larger than array          got: []                           expected: []                     [PASS]
+
+==============================================================================
+TASK 5 - Supply Allocation   (1-D knapsack + Hirschberg)
+==============================================================================
+  W = 5, zones (cost, lives): [(2, 30), (3, 50), (4, 60), (1, 10)]
+  maximum lives                      got: 80                           expected: 80                     [PASS]
+  zones chosen (1-based)             got: [1, 2]                       expected: [1, 2]                 [PASS]
+
+==============================================================================
+TASK 6 (Bonus) - Street Search and Hospital Beds
+==============================================================================
+  suggest("ma") -> up to 5           got: ['main st', 'mall rd', 'mango ln', 'maple ave', 'marine dr'] expected: ['main st', 'mall rd', 'mango ln', 'maple ave', 'marine dr'] [PASS]
+  query(0,4) -> (hospital, beds)     got: (2, 9)                       expected: (2, 9)                 [PASS]
+  after updateBeds(3,+3)             got: (3, 12)                      expected: (3, 12)                [PASS]
+  ring wrap query(4,1) on [8,1,1,1,6] got: (0, 8)                       expected: (0, 8)                 [PASS]
+
+All case-study samples reproduced correctly.

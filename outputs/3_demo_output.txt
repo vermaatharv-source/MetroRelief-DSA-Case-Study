@@ -1,0 +1,10 @@
+First 5 dispatches (incident sev@junction | ambulance, pickup min | hospital junction, trip min)
+  I0   sev5@9   | amb7  5 min | hospital@7    4 min
+  I1   sev5@67  | amb4  0 min | hospital@56   5 min
+  I4   sev5@62  | amb3 10 min | hospital@107 15 min
+  I8   sev5@59  | amb0  7 min | hospital@46  10 min
+  I12  sev5@117 | amb9 13 min | hospital@107 14 min
+Service order is non-increasing in severity: True
+Dispatched 100 incidents, mean total time 24.2 min
+After 230 flood closures, 96/100 incident junctions cannot reach any hospital
+Task 3 answer cross-checked against naive BFS rerun: OK
